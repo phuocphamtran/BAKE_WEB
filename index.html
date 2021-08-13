@@ -17,7 +17,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-
+    <!-- lightbox -->
+    <link
+      href="./node_modules/lightbox2/dist/css/lightbox.css"
+      rel="stylesheet"
+    />
     <!-- css -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -159,28 +163,88 @@
       <h2>OUT GALLERY</h2>
       <div class="gallery__content">
         <figure class="gallery__item gallery__g1">
-          <img src="./img/g1.jpg" alt="gallery 01" />
-          <figcaption class="gallery__overlay">
-            <h3><span>OUR</span> GALLERY</h3>
-            <!-- duong gach lam bang css -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </figcaption>
+          <a href="./img/g1.jpg" data-lightbox="hinhanh">
+            <img src="./img/g1.jpg" alt="gallery 01" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <!-- duong gach lam bang css -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
         <figure class="gallery__item">
-          <img src="./img/g2.jpg" alt="gallery 02" />
+          <a href="./img/g2.jpg" data-lightbox="hinhanh">
+            <img src="./img/g2.jpg" alt="gallery 02" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <!-- duong gach lam bang css -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
         <figure class="gallery__item">
-          <img src="./img/g3.jpg" alt="gallery 03" />
+          <a href="./img/g3.jpg" data-lightbox="hinhanh">
+            <img src="./img/g3.jpg" alt="gallery 03" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <!-- duong gach lam bang css -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
         <figure class="gallery__item">
-          <img src="./img/g4.jpg" alt="gallery 04" />
+          <a href="./img/g4.jpg" data-lightbox="hinhanh">
+            <img src="./img/g4.jpg" alt="gallery 04" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <!-- duong gach lam bang css -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
         <figure class="gallery__item">
-          <img src="./img/g5.jpg" alt="gallery 05" />
+          <a href="./img/g5.jpg" data-lightbox="hinhanh">
+            <img src="./img/g5.jpg" alt="gallery 05" />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <!-- duong gach lam bang css -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
         <figure class="gallery__item gallery__g6">
-          <img src="./img/g6.jpg" alt="gallery 06 " />
+          <a href="./img/g6.jpg" data-lightbox="hinhanh">
+            <img src="./img/g6.jpg" alt="gallery 06 " />
+            <figcaption class="gallery__overlay">
+              <h3><span>OUR</span> GALLERY</h3>
+              <!-- duong gach lam bang css -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+          </a>
         </figure>
+      </div>
+    </section>
+    <section class="team">
+      <h2>BAKE TEAM</h2>
+      <div class="team__content">
+        <div class="team__iteam">
+          <img src="./img/t1.jpg" alt="team01" />
+        </div>
+        <div class="team__iteam">
+          <img src="./img/t2.jpg" alt="team02" />
+        </div>
+        <div class="team__iteam">
+          <img src="./img/t3.jpg" alt="team03" />
+        </div>
+        <div class="team__iteam">
+          <img src="./img/t4.jpg" alt="team04" />
+        </div>
+        <div class="team__iteam">
+          <img src="./img/t3.jpg" alt="team05" />
+        </div>
+        <div class="team__iteam">
+          <img src="./img/t2.jpg" alt="team06" />
+        </div>
       </div>
     </section>
 
@@ -195,5 +259,7 @@
     <script>
       $(".counter").countUp();
     </script>
+    <!-- lightboxjs -->
+    <script src="./node_modules/lightbox2/dist/js/lightbox.js"></script>
   </body>
 </html>
