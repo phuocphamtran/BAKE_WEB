@@ -101,6 +101,10 @@ header {
   font-size: 1.1rem;
   padding: 23px 0;
 }
+
+.carousel__content:hover button {
+  animation: upDown3 2s 1 forwards;
+}
 /* INTRO */
 .intro {
   display: grid;
@@ -180,6 +184,7 @@ header {
   background-image: url("../img/s1.jpg");
   background-size: cover;
   text-align: center;
+  padding-bottom: 4rem;
 }
 .services h2 {
   color: white;
@@ -589,6 +594,34 @@ footer {
 }
 
 /* chuyendong */
-/* @keyframes upDown{
+@keyframes upDown {
+  /* 100s */
+  0% {
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes upDown2 {
+  /* 100s */
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(50px);
+  }
+}
+@keyframes upDown3 {
+  /* 100s */
+  0% {
+    transform: translateY(0);
+  }
 
-} */
+  100% {
+    background-color: yellow;
+    transform: translateY(50px);
+  }
+}
